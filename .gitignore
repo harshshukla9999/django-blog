@@ -7,7 +7,7 @@ __pycache__
 /blog/settings.py
 
 # Ignore the database file (if using SQLite)
-/db.sqlite3
+db.sqlite3
 
 # Ignore the media and static files (if using file storage)
 /media/*
@@ -22,7 +22,7 @@ __pycache__
 
 # Ignore any virtual environment folder (assuming you are using venv or virtualenv)
 /blogenv/
-/env/
+.env
 
 # Ignore the database configuration file (if using PostgreSQL, MySQL, etc.)
 /db_config.json
